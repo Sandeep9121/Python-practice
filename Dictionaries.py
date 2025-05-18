@@ -97,8 +97,29 @@ print(dict_with_value)
 
 # tuples
 
-numbers = (1, 2, 3, 4, 5)
 
-# other way of
+
+# other way of coouple converts
 tuple5 = tuple([3,33,6])
 print(tuple5)  # it changed directly into the tuple (3, 33, 6)
+
+tuple6 = tuple("Sandeep")
+print(tuple6)  #('S', 'a', 'n', 'd', 'e', 'e', 'p')
+
+# if you use dictionary inside the tuple only key converts as a tuple
+
+tuple1 =tuple({"a":1,"b":2})
+print(tuple1)   #('a', 'b')
+
+numbers = (1, 2, 3, 4, 5)
+print(numbers[0])  # accessing 1  index base
+# slicing of tuples
+print(numbers[:3])
+print(numbers[1:4])
+print(numbers[1:])
+# numbers[0]=44; 'tuple' object does not support item assignment
+# tuples are immutable data type
+
+# tuples are less space in mememory immutable
+print(numbers.__sizeof__())
+
