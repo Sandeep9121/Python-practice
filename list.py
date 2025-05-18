@@ -1,3 +1,5 @@
+import  copy
+
 #List
 
 print(list("sandeep"))    #convert String into list
@@ -72,8 +74,33 @@ new_pop=asciibetical.pop()   # you can use the pop with index
 print(asciibetical)
 print(new_pop)
 
+# List vs String
+
+# list is mutable and String are immutable (changed removed or updated)
+# REFERENCES ASSINGMENTS IN STRINGS  BUT YOU CANT DO SAME IN LIST
+
+# WHY DOES PYTHON HAS REFERENCES
+
+# DEEPCOPY is
+
+ex =[1,2,3,4,5,6,6,8]
+ex1=copy.deepcopy(ex)
+ex[2]=0
+print(ex)
+print(ex1)
+
+#list line continuation
+ex_3 =[
+    "bush",
+    "fern",
+    "tree",
+    "moss"
+]
+
+print(ex_3)
 
 
+# line continua character use black slash for assinging new variable
 
 
 
