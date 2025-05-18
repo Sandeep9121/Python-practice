@@ -101,8 +101,3 @@ print(ex_3)
 
 
 # line continua character use black slash for assinging new variable
-
-
-
-
-

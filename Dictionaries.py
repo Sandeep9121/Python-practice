@@ -123,3 +123,28 @@ print(numbers[1:])
 # tuples are less space in mememory immutable
 print(numbers.__sizeof__())
 
+# tuples looping and step
+
+colors = ("red", "green", "blue")
+
+count =0
+
+while count< len(colors):
+    print(colors[count])
+    count+=1
+
+# step in the tuples
+ints  = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+print(ints[::3])   # stride jumps 3
+print(ints[1::2])   # even
+print(ints[14::-1])   # backward from
+print(ints[14::-2])    # backward even
+
+
+# nested tuples
+coordinates = ((10.0, 20.0), (30.0, 40.0))
+print(coordinates[1][0])
+
+# .index in tuples  it give the value index simple
+
+
